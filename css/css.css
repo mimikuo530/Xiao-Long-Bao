@@ -22,7 +22,7 @@ body {
   transition: transform 0.3s;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 .card:hover {
@@ -48,7 +48,7 @@ body {
 }
 .card a {
   display: block;
-  padding: 10px 15px;
+  padding: 15px 20px;
   background-color: lightcoral;
   color: white;
   text-decoration: none;
