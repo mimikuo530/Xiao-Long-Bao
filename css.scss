@@ -28,25 +28,24 @@ body {
          transform: scale(1.05);
         }
     ＆img{
-        width: 50%;height: 150px; object-fit: cover;
+        width: 50%;
+        height: 150px; 
+        object-fit: cover;
     }
     ＆h1{
         font-size: 1.5em;
         margin: 10px 0;
     }
-    ＆span{
-        color: aquamarine;
-        display: flex;
-        align-items: flex-end;
-        padding-bottom: 100%;
-    }
     ＆p{
         color: #555;
         margin: 0 0 10px;
     }
+    ＆span{
+        color: darkcyan;
+    }
     ＆a{
         display: block;
-        padding: 10px;
+        padding: 10px 15px;
         background-color:lightcoral;
         color: white;
         text-decoration: none;
@@ -55,5 +54,6 @@ body {
     ＆a:hover{
         background-color: #0056b3;
     }
+}
 
- }
+

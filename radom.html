@@ -3,212 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Cards</title>
+    <title>小籠包專案v01</title>
     <link rel="stylesheet" href="css/css.css">
-    <style>
-   
-        /* body {
-            background-color:darkkhaki;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            padding: 20px;
-        }
-        .card {
-            
-            background-color:white;
-            width: 280px;
-            height: 280px;
-            border: 1px solid #ddd;
-            border-radius: 50%;
-            overflow: hidden;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            transition: transform 0.3s;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .card:hover {
-            transform: scale(1.05);
-        }
-        .card img {
-            width: 50%;
-            height: 150px;
-            object-fit: cover;
-        }
-        .card h1 {
-            font-size: 1.5em;
-            margin: 10px 0;
-        }
-        .card p {
-            color: #555;
-            margin: 0 0 10px;
-        }
-        .card a {
-            display: block;
-            padding: 10px;
-            background-color:lightcoral;
-            color: white;
-            text-decoration: none;
-            border-radius: 10px;
-        }
-        .card a:hover {
-            background-color: #0056b3;
-        } */
-    </style>
+    <style></style>
 </head>
 <body>
     <script>
         const cards = [
             {
                 image: "img/reading.gif",
-                title: "故事。",
-                subtitle: "有故事的酒標",
+                title: "有<span>故事</span>的酒標",
+                subtitle: "",
                 link: "＃"
             },
             {
                 image: "img/wine.gif",
-                title: "戰。",
-                subtitle: "決戰酒國，最佳選擇！",
+                title: "開趴決<span>戰</span>酒國",
+                subtitle: "",
                 link: "＃"
             },
             {
                 image: "img/ladybug.gif",
-                title: "自然。",
-                subtitle: "越自然 越快樂",
+                title: "越<span>自然</span> 越快樂",
+                subtitle: "",
                 link: "＃"
             },
             {
                 image: "img/meat.gif",
-                title: "牛排。",
-                subtitle: "請給牛排最完美的情人",
+                title: "<span>牛排</span>配紅酒",
+                subtitle: "",
                 link: "＃"
             },
             {
                 image: "img/hops.gif",
-                title: "酒花。",
-                subtitle: "酒花狂潮",
+                title: "<span>酒花</span>狂潮",
+                subtitle: "",
                 link: "＃"
             },
             {
                 image: "img/cider.gif",
-                title: "蘋果。",
-                subtitle: "微醺果實派對",
+                title: "微醺<span>果實</span>派對",
+                subtitle: "",
                 link: "＃"
             },
             {
                 image: "img/love.gif",
-                title: "靈魂。",
-                subtitle: "Diploma靈魂白酒",
+                title: "Diploma<span>靈魂</span>白酒",
+                subtitle: "",
                 link: "＃"
             },
             {
                 image: "img/freedom.gif",
-                title: "傲骨。",
-                subtitle: "自願降級的傲骨酒",
+                title: "自願降級的<span>傲骨</span>酒",
+                subtitle: "",
                 link: "＃"
             },
             {
                 image: "img/earth.gif",
-                title: "經典。白葡萄酒",
-                subtitle: "喝經典找真愛：白葡萄酒",
+                title: "經典<span>白</span>葡萄酒",
+                subtitle: "",
                 link: "＃"
             },
             {
                 image: "img/earth.gif",
-                title: "經典。紅葡萄酒",
-                subtitle: "喝經典找真愛：紅葡萄酒",
+                title: "經典<span>紅</span>葡萄酒",
+                subtitle: "",
                 link: "＃"
             },
             {
                 image: "img/speech-bubble.gif",
-                title: "猜。布根地",
-                subtitle: "Gevrey化成灰都喝得出來？",
+                title: "猜猜布根地<span>Gevery</span>",
+                subtitle: "",
                 link: "＃"
             },
             {
                 image: "img/sashimi.gif",
-                title: "日料。生魚片 握壽司",
-                subtitle: "日料X葡萄酒：生魚片&握壽司",
+                title: "葡萄酒×<span>生</span>魚片&壽司",
+                subtitle: "",
                 link: "＃"
             },
             {
                 image: "img/shrimp.gif",
-                title: "日料。天婦羅 串燒",
-                subtitle: "日料X葡萄酒：天婦羅&串燒",
+                title: "葡萄酒×<span>天</span>婦羅&串燒",
+                subtitle: "",
                 link: "＃"
             },
             {
                 image: "img/fuji.gif",
-                title: "日料。懷石 和牛",
-                subtitle: "日料X葡萄酒：懷石料理&和牛",
+                title: "葡萄酒×<span>懷</span>石&和牛",
+                subtitle: "",
                 link: "＃"
             },
             {
                 image: "img/dining-table.gif",
-                title: "台菜。鹽",
-                subtitle: "台菜萬歲",
+                title: "台菜餐酒搭<span>鹽</span>系",
+                subtitle: "",
                 link: "＃"
             },
             {
                 image: "img/dining-table.gif",
-                title: "台菜。醬",
-                subtitle: "台菜萬歲",
+                title: "台菜餐酒搭<span>醬</span>系",
+                subtitle: "",
                 link: "＃"
             },
             {
                 image: "img/speech-bubble.gif",
-                title: "猜。 布根地",
-                subtitle: "請接招！Volnay盲飲王大賽開跑",
+                title: "猜猜布根地<span>Volnay</span>",
+                subtitle: "",
                 link: "＃"
             },
             {
                 image: "img/speech-bubble.gif",
-                title: "猜。 布根地",
-                subtitle: "徵的就是你！你是Chassagne白酒盲飲專家嗎？",
+                title: "猜猜布根地<span>Chassagne</span>",
+                subtitle: "",
                 link: "＃"
             },
             {
                 image: "img/bartender.gif",
-                title: "調。 情 酒",
-                subtitle: "居家調酒懶人包",
+                title: "居家<span>調酒</span>懶人包",
+                subtitle: "",
                 link: "＃"
             },
             {
                 image: "img/gift.gif",
-                title: "體面。",
-                subtitle: "如果體面是你選酒最重要的事",
+                title: "體面送<span>禮</span>選酒",
+                subtitle: "",
                 link: "＃"
             },
             {
-                image: "img/zoom.gif",
-                title: "小。",
-                subtitle: "浪漫沒有侷限",
+                image: "img/feeder.gif",
+                title: "<span>小</span>容量葡萄酒",
+                subtitle: "",
                 link: "＃"
             },
             {
                 image: "img/sumo.gif",
-                title: "獺 <span>。</span> ",
-                subtitle: "這是一封給獺祭迷的挑戰書",
+                title: "<span>獺</span>祭Alike",
+                subtitle: "",
                 link: "＃"
             },
             {
                 image: "img/champagne.gif",
-                title: "泡泡。",
-                subtitle: "香檳離家出走",
+                title: "<span>香檳</span>離家出走",
+                subtitle: "",
                 link: "＃"
             },
             {
                 image: "img/lips.gif",
-                title: "甜。",
-                subtitle: "不可能甜酒都一樣吧？",
+                title: "殿堂等級<span>甜</span>酒",
+                subtitle: "",
                 link: "＃"
             }
             
