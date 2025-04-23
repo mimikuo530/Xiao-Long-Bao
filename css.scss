@@ -1,17 +1,17 @@
 body {
-    background-color:darkkhaki;
+    background-color: rgb(143, 187, 173);
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    padding: 20px;
 }
+
+
 .card {
-    
-    background-color:white;
+    background-color: white;
     width: 280px;
     height: 280px;
     border: 1px solid #ddd;
@@ -24,34 +24,34 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    ＆:hover{
+    :hover{
          transform: scale(1.05);
         }
-    ＆img{
-        width: 50%;
+    img{
+        width: 49%;
         height: 150px; 
         object-fit: cover;
     }
-    ＆h1{
+    h1{
         font-size: 1.5em;
         margin: 10px 0;
     }
-    ＆p{
+    &p{
         color: #555;
         margin: 0 0 10px;
     }
-    ＆span{
+    span{
         color: darkcyan;
     }
-    ＆a{
+    a{
         display: block;
-        padding: 15px 20px;
+        padding: 15px 45px;
         background-color:lightcoral;
         color: white;
         text-decoration: none;
         border-radius: 10px;
     }
-    ＆a:hover{
+    &a:hover{
         background-color: #0056b3;
     }
 }

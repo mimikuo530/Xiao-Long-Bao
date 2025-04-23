@@ -48,12 +48,12 @@ body {
 }
 .card a {
   display: block;
-  padding: 15px 20px;
+  padding: 15px 45px;
   background-color: lightcoral;
   color: white;
   text-decoration: none;
   border-radius: 10px;
 }
 .card a:hover {
-  background-color: #0056b3;
+  background-color: #5788bb;
 }
