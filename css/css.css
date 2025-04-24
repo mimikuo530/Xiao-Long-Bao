@@ -33,6 +33,8 @@ body {
   height: 150px;
   -o-object-fit: cover;
      object-fit: cover;
+    mix-blend-mode: multiply;
+    filter: grayscale(100%);
 }
 .card h1 {
   font-size: 1.5em;
