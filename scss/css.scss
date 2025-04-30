@@ -1,5 +1,8 @@
+$primary-color: #97d8fe;
+$secondary-color: #2ecc71;
+
 body {
-    background-color: rgb(143, 187, 173);
+    background-color: $primary-color;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
@@ -24,36 +27,39 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    :hover{
+    &:hover{
          transform: scale(1.05);
         }
-    img{
+    img {
         width: 49%;
-        height: 150px; 
+        height: 150px;
         object-fit: cover;
+        filter: hue-rotate(200deg);
+    }
     }
     h1{
         font-size: 1.5em;
         margin: 10px 0;
     }
-    &p{
+    p{
         color: #555;
         margin: 0 0 10px;
     }
     span{
-        color: darkcyan;
+        color: #648fa9;
     }
     a{
         display: block;
         padding: 15px 45px;
-        background-color:lightcoral;
+        background-color:#fd72a9;
         color: white;
         text-decoration: none;
         border-radius: 10px;
+        font-size: larger;
     }
-    &a:hover{
-        background-color: #0056b3;
+    a:hover{
+        background-color: darken($color: #926376, $amount: 0);
     }
-}
+
 
 
